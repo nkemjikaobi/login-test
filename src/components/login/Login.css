@@ -1,0 +1,94 @@
+:root {
+	--light-color: #f4f4f4;
+	--dark-color: #333;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica Neue !important;
+}
+.container {
+	max-width: 1100px;
+	margin: auto;
+	overflow: hidden;
+	padding: 0 2rem;
+	position: relative;
+}
+.form-container {
+	max-width: 500px;
+	margin: 10rem auto;
+	overflow: hidden;
+	padding: 0 2rem;
+}
+
+.form-container span:first-child {
+	display: inline-block;
+	font-weight: 700;
+	font-size: 20px;
+	width: 420px;
+	text-align: center;
+	line-height: 24.42px;
+	letter-spacing: 0.3px;
+}
+.form-group {
+	margin: 1.2rem 0;
+	position: relative;
+}
+
+.form-group input {
+	margin: 0.2rem 0;
+}
+label {
+	line-height: 24px;
+	font-weight: 400;
+}
+
+input {
+	margin: 1.2rem 0;
+}
+input[type='text'],
+input[type='password'] {
+	display: inline-block;
+	width: 100%;
+	padding: 0.4rem;
+	font-weight: 400;
+	line-height: 24px;
+	border: 1px solid #ededed;
+	border-radius: 5px;
+}
+::placeholder {
+	color: #b0b0b0;
+	line-height: 19px;
+}
+.btn {
+	display: inline-block;
+	background: var(--dark-color);
+	color: var(--light-color);
+	padding: 14px 28px;
+	font-size: 1rem;
+	border: none;
+	cursor: pointer;
+	margin-right: 0.5rem;
+	transition: opacity 0.2s ease-in;
+	outline: none;
+	border-radius: 3px;
+}
+.btn-block {
+	display: block;
+	width: 100%;
+}
+
+ @media(max-width: 768px){
+     /* Login */
+     .form-container {
+        max-width: 500px;
+        margin: 15rem auto;
+        overflow: hidden;
+        padding: 0 2rem;
+    }
+     .form-container span:first-child {
+        width: 100%;
+    }
+}
