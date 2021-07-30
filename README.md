@@ -21,6 +21,8 @@ Run the test.
 
 On the browser, to view responses from the mock api, open your console
 
+When you submit the form, the information changes from 'not logged in' to 'login successful'
+
 [JSON PLACEHOLDER](https://jsonplaceholder.typicode.com/guide/) was used for the mock data
 
 To view tests results, use your IDE terminal
